@@ -1,11 +1,8 @@
-a = input("Give me the first number: ")
-b = input("Give me the second number: ")
-
-x = int(a)
-y = int(b)
-
+a = int(input("Give me the first number: "))
+b = int(input("Give me the first number: "))
 print("Thank you!")
-print(f"{int(x) if x.is_integer() else x} + {int(y) if y.is_integer() else y} = {x + y}")
-print(f"{int(x) if x.is_integer() else x} - {int(y) if y.is_integer() else y} = {x - y}")
-print(f"{int(x) if x.is_integer() else x} / {int(y) if y.is_integer() else y} = {x / y}")
-print(f"{int(x) if x.is_integer() else x} * {int(y) if y.is_integer() else y} = {x * y}")
+
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} / {b} = {a // b}")
+print(f"{a} * {b} = {a * b}")
